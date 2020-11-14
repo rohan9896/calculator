@@ -1,0 +1,21 @@
+body{
+    background-color:#c46161;
+  }
+  
+  .tab{
+      text-align: center;
+     
+      margin-top: inherit;
+  }
+  .table {
+    text-align: center;
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: #cccccc;
+    
+  }
+  
