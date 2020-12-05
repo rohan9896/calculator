@@ -1,5 +1,6 @@
 body{
-    background-color:#c46161;
+    background-color:#E0E7FF;
+    font-family: Arial, Helvetica, sans-serif;
   }
   
   .tab{
@@ -15,7 +16,20 @@ body{
     margin: auto;
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
-    background-color: #cccccc;
+    background-color: #C7D2FE;
     
+  }
+
+  .heading {
+    font-weight: bolder;
+  }
+
+
+  .btn {
+    padding: 0.2rem 0.7rem;
+    background-color: #6366F1;
+    color: white; 
+    border-radius: 0.5rem;
+    font-size: larger;
   }
   
