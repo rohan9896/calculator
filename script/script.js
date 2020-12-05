@@ -1,16 +1,16 @@
-function dis(val)
-{
-document.getElementById("edu").value+=val
- }
+var inputEq = document.getElementById("input-text");
+
+//function for adding text to input
+function dis(val) {
+  inputEq.value += val;
+}
 //function for evaluation
-function solve()
-{
-let x = document.getElementById("edu").value
-let y = eval(x)
-document.getElementById("edu").value = y
+function solve() {
+  let x = inputEq.value;
+  let y = eval(x);
+  inputEq.value = y;
 }
 //function for clearing the display
-function clr()
-{
-document.getElementById("edu").value = ""
+function clr() {
+  inputEq.value = "";
 }
