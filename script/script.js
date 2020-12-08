@@ -1,7 +1,7 @@
 var inputEq = document.getElementById("input-text");
 
 //function for adding text to input
-function dis(val) {
+function changeInp(val) {
   inputEq.value += val;
 }
 //function for evaluation
