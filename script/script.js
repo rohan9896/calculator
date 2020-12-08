@@ -4,12 +4,22 @@ var inputEq = document.getElementById("input-text");
 function changeInp(val) {
   inputEq.value += val;
 }
+
+
 //function for evaluation
 function solve() {
   let x = inputEq.value;
-  let y = eval(x);
+  let y;
+  try{
+    y = eval(x);
+  }
+  catch(err){
+    y = "Invalid input";
+  }
   inputEq.value = y;
 }
+
+
 //function for clearing the display
 function clr() {
   inputEq.value = "";
